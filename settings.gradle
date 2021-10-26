@@ -1,0 +1,2 @@
+rootProject.name = "mpv"
+include ':app'
