@@ -1,4 +1,4 @@
-package com.example.mpv.menu;
+package com.example.mpv.view;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,8 +9,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mpv.R;
+import com.example.mpv.model.login_view;
 import com.example.mpv.presenter.login_presenter_new;
-import com.example.mpv.view.login_view;
 
 public class MainActivity extends AppCompatActivity implements login_view {
 

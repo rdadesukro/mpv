@@ -1,12 +1,9 @@
 package com.example.mpv.presenter;
 
 import android.content.Context;
-import android.os.Handler;
 import android.text.TextUtils;
-import android.util.Log;
-import android.widget.Toast;
 
-import com.example.mpv.view.login_view;
+import com.example.mpv.model.login_view;
 
 
 public class login_presenter_new {
