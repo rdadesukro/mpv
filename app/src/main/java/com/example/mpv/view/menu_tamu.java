@@ -52,6 +52,14 @@ public class menu_tamu extends AppCompatActivity implements tamu_view, adapter_t
 
             }
         });
+
+
+        swifeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                tamu.get_tamu();
+            }
+        });
     }
 
     @Override
