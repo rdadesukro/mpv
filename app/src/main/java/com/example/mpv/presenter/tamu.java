@@ -21,7 +21,10 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
+
 public class tamu {
+
+    //new
 
     private Context ctx;
     private tamu_view countryView;
