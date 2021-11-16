@@ -9,7 +9,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mpv.R;
-import com.example.mpv.model.login_view;
 import com.example.mpv.presenter.login_presenter_new;
 
 public class MainActivity extends AppCompatActivity implements login_view {
