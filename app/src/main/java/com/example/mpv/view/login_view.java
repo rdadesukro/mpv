@@ -1,4 +1,4 @@
-package com.example.mpv.model;
+package com.example.mpv.view;
 
 public interface login_view {
     /**
