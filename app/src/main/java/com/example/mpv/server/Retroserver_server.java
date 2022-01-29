@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class Retroserver_server {
-    private  static  final String base_url = "http://10.1.4.63//pemograman_mobile/";
+    private  static  final String base_url = "http://192.168.43.48/pemograman_mobile/";
 
     private static Retrofit retrofit;
     public static Retrofit getClient()

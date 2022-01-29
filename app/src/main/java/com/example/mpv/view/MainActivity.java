@@ -13,6 +13,10 @@ import com.example.mpv.presenter.login_presenter_new;
 
 public class MainActivity extends AppCompatActivity implements login_view {
 
+    //deklarasi variabel
+     EditText edit_username,edit_password;
+     Button btn_login;
+
     private EditText editNama;
     private EditText editPassword;
     private Button btnLogin;
@@ -23,9 +27,13 @@ public class MainActivity extends AppCompatActivity implements login_view {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //baca variabel
+        edit_username = findViewById(R.id.edit_username);
+
+
         initView();
         login_presenter_new= new login_presenter_new(this,MainActivity.this);
-
+        //Toast.makeText(, "", Toast.LENGTH_SHORT).show();
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
